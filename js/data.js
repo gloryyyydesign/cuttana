@@ -500,6 +500,7 @@
       key: "nazar",
       name: { ru: "Назар", pl: "Nazar", en: "Nazar" },
       image: "assets/team/nazar.jpg",
+      imgPos: "22% center",
       tier: "basic",
       rank: {
         ru: "Начинающий собиратель форм",
