@@ -76,19 +76,20 @@
     return (name || "?").trim().charAt(0).toUpperCase();
   }
 
-  function caseCard(c) {
+  function caseCard(c, i) {
+    const name = I.pick(c.name);
     const tags = c.services
       .map((k) => `<span class="chip">${serviceLabel(k)}</span>`)
       .join("");
     return `
-      <article class="ccard reveal">
-        <div class="ccard__media" data-mono="${mono(c.name)}">
-          <img src="${c.image}" alt="${c.name} — Cuttana" loading="lazy"
+      <article class="ccard reveal" style="transition-delay:${(i || 0) * 90}ms">
+        <div class="ccard__media" data-mono="${mono(name)}">
+          <img src="${c.image}" alt="${name} — Cuttana" loading="lazy"
                onerror="this.style.display='none'" />
           <div class="ccard__tags">${tags}</div>
         </div>
         <div class="ccard__body">
-          <div class="ccard__name">${c.name}</div>
+          <div class="ccard__name">${name}</div>
           <p class="ccard__desc">${I.pick(c.desc)}</p>
           <div class="ccard__by">
             ${icon("scissors")}
@@ -101,7 +102,7 @@
   function renderCases() {
     const grid = $("#casesGrid");
     if (!grid) return;
-    grid.innerHTML = C.clients.slice(0, 2).map(caseCard).join("");
+    grid.innerHTML = C.clients.slice(0, 3).map(caseCard).join("");
   }
 
   /* ---- Team ------------------------------------------------------------- */
@@ -109,7 +110,7 @@
     const grid = $("#teamGrid");
     if (!grid) return;
     grid.innerHTML = C.team
-      .map((b) => {
+      .map((b, idx) => {
         const pros = I.pick(b.pros)
           .map(
             (p) =>
@@ -123,7 +124,7 @@
           )
           .join("");
         return `
-        <article class="tcard reveal">
+        <article class="tcard reveal" style="transition-delay:${(idx % 2) * 110}ms">
           <div class="tcard__photo" data-mono="${mono(I.pick(b.name))}">
             <img src="${b.image}" alt="${I.pick(b.name)} — Cuttana" loading="lazy"
                  onerror="this.style.display='none'" />

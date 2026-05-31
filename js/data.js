@@ -597,7 +597,7 @@
   const clients = [
     {
       id: "case-01",
-      name: "Артём",
+      name: { ru: "Артём", pl: "Artiom", en: "Artem" },
       barber: "sergey",
       services: ["fade", "beard"],
       image: "assets/clients/case-01.jpg",
@@ -609,7 +609,7 @@
     },
     {
       id: "case-02",
-      name: "Михаил",
+      name: { ru: "Михаил", pl: "Michaił", en: "Mikhail" },
       barber: "polina",
       services: ["scissors"],
       image: "assets/clients/case-02.jpg",
@@ -621,7 +621,7 @@
     },
     {
       id: "case-03",
-      name: "Daniel",
+      name: { ru: "Дэниел", pl: "Daniel", en: "Daniel" },
       barber: "nazar",
       services: ["fade"],
       image: "assets/clients/case-03.jpg",
@@ -633,7 +633,7 @@
     },
     {
       id: "case-04",
-      name: "Ola",
+      name: { ru: "Оля", pl: "Ola", en: "Ola" },
       barber: "tatiana",
       services: ["scissors", "beard"],
       image: "assets/clients/case-04.jpg",
@@ -645,7 +645,7 @@
     },
     {
       id: "case-05",
-      name: "Кирилл",
+      name: { ru: "Кирилл", pl: "Cyryl", en: "Kirill" },
       barber: "sergey",
       services: ["scissors", "beard"],
       image: "assets/clients/case-05.jpg",
@@ -657,7 +657,7 @@
     },
     {
       id: "case-06",
-      name: "Jan",
+      name: { ru: "Ян", pl: "Jan", en: "Jan" },
       barber: "polina",
       services: ["fade", "beard"],
       image: "assets/clients/case-06.jpg",
@@ -669,7 +669,7 @@
     },
     {
       id: "case-07",
-      name: "Андрей",
+      name: { ru: "Андрей", pl: "Andriej", en: "Andrey" },
       barber: "nazar",
       services: ["beard"],
       image: "assets/clients/case-07.jpg",
@@ -681,7 +681,7 @@
     },
     {
       id: "case-08",
-      name: "Wiktor",
+      name: { ru: "Виктор", pl: "Wiktor", en: "Viktor" },
       barber: "tatiana",
       services: ["fade"],
       image: "assets/clients/case-08.jpg",

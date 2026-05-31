@@ -62,19 +62,20 @@
   }
 
   /* ---- Cards ------------------------------------------------------------ */
-  function caseCard(c) {
+  function caseCard(c, i) {
+    const name = I.pick(c.name);
     const tags = c.services
       .map((k) => `<span class="chip">${serviceLabel(k)}</span>`)
       .join("");
     return `
-      <article class="ccard reveal in">
-        <div class="ccard__media" data-mono="${mono(c.name)}">
-          <img src="${c.image}" alt="${c.name} — Cuttana" loading="lazy"
+      <article class="ccard card-pop" style="animation-delay:${(i || 0) * 55}ms">
+        <div class="ccard__media" data-mono="${mono(name)}">
+          <img src="${c.image}" alt="${name} — Cuttana" loading="lazy"
                onerror="this.style.display='none'" />
           <div class="ccard__tags">${tags}</div>
         </div>
         <div class="ccard__body">
-          <div class="ccard__name">${c.name}</div>
+          <div class="ccard__name">${name}</div>
           <p class="ccard__desc">${I.pick(c.desc)}</p>
           <div class="ccard__by">
             ${icon("scissors")}
@@ -96,7 +97,7 @@
     const grid = $("#casesGrid");
     const empty = $("#emptyState");
     const list = filtered();
-    grid.innerHTML = list.map(caseCard).join("");
+    grid.innerHTML = list.map((c, i) => caseCard(c, i)).join("");
     empty.style.display = list.length ? "none" : "block";
     $("#resultCount").textContent = list.length;
   }
