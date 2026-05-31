@@ -435,8 +435,8 @@ h2.title {
 }
 
 .hero__media {
-  opacity: 0.28;
-  filter: brightness(0.6) saturate(0.9);
+  opacity: 0.17;
+  filter: brightness(0.42) saturate(0.9);
 }
 
 .hero__overlay {
