@@ -206,13 +206,13 @@ h2.title {
   transition: transform 0.3s var(--ease);
 }
 
-/* Header "Book now" — keep it roomy and never let it get squeezed */
+/* Header "Book now" — mirror the hero CTA's balanced proportions:
+   generous side padding, modest height, no forced min-height. */
 .nav__book {
-  padding: 18px 40px;
+  padding: 13px 32px;
   flex-shrink: 0;
-  font-size: 16px;
-  font-weight: 700;
-  min-height: 56px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .btn--primary {
