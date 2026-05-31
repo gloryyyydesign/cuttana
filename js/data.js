@@ -412,6 +412,7 @@
       key: "sergey",
       name: { ru: "Сергей", pl: "Sergiej", en: "Sergey" },
       image: "assets/team/sergey.jpg",
+      imgPos: "35% center",
       tier: "premium",
       rank: {
         ru: "Основатель фракции",
