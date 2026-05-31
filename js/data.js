@@ -262,10 +262,10 @@
     booksy: "https://booksy.com/pl-pl/dl/show-business/137479",
     instagram: "https://www.instagram.com/cuttana_barbershop",
     instagramHandle: "@cuttana_barbershop",
-    maps: "https://maps.google.com/?q=Zwyci%C4%99c%C3%B3w+13,+Warszawa,+Polska",
+    maps: "https://maps.google.com/?q=Zwyci%C4%99zc%C3%B3w+13,+Warszawa,+Polska",
     mapsEmbed:
-      "https://www.google.com/maps?q=Zwyci%C4%99c%C3%B3w%2013,%20Warszawa,%20Polska&output=embed",
-    address: "Zwycięców 13, Warszawa, Polska",
+      "https://www.google.com/maps?q=Zwyci%C4%99zc%C3%B3w%2013,%20Warszawa,%20Polska&output=embed",
+    address: "Zwycięzców 13, Warszawa, Polska",
   };
 
   /* ---- Services (brand names kept in English across languages) ---------- */
