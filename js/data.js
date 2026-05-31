@@ -411,7 +411,7 @@
     {
       key: "sergey",
       name: { ru: "Сергей", pl: "Sergiej", en: "Sergey" },
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=70",
+      image: "assets/team/sergey.jpg",
       tier: "premium",
       rank: {
         ru: "Основатель фракции",
@@ -456,7 +456,7 @@
     {
       key: "polina",
       name: { ru: "Полина", pl: "Polina", en: "Polina" },
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=70",
+      image: "assets/team/polina.jpg",
       tier: "premium",
       rank: {
         ru: "Главный стратег",
@@ -498,7 +498,7 @@
     {
       key: "nazar",
       name: { ru: "Назар", pl: "Nazar", en: "Nazar" },
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=70",
+      image: "assets/team/nazar.jpg",
       tier: "basic",
       rank: {
         ru: "Начинающий собиратель форм",
@@ -546,7 +546,7 @@
     {
       key: "tatiana",
       name: { ru: "Татьяна", pl: "Tatiana", en: "Tatiana" },
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=800&q=70",
+      image: "assets/team/tatiana.jpg",
       tier: "basic",
       rank: {
         ru: "Новобранец с опытом",
