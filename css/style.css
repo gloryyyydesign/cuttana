@@ -677,6 +677,11 @@ h2.title {
   margin-bottom: clamp(40px, 6vw, 70px);
 }
 
+/* Honour the explicit \n line break in the services title */
+.services__intro .title {
+  white-space: pre-line;
+}
+
 .services__intro .lead {
   margin-top: 0;
   font-size: clamp(1.05rem, 1.8vw, 1.28rem);

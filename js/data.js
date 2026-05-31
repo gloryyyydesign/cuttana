@@ -29,7 +29,7 @@
       "hero.scroll": "Листай",
 
       "services.tag": "Услуги",
-      "services.title": "В CUTTANA всего 3 услуги",
+      "services.title": "В CUTTANA\nвсего 3 услуги",
       "services.intro":
         "Не потому что у нас мало фантазии, а потому что нам важна структура, а не солянка — когда цена зависит от объёма работы и опыта мастера, а не от красивого названия.",
 
@@ -111,7 +111,7 @@
       "hero.scroll": "Przewiń",
 
       "services.tag": "Usługi",
-      "services.title": "W CUTTANA są tylko 3 usługi",
+      "services.title": "W CUTTANA\nsą tylko 3 usługi",
       "services.intro":
         "Nie dlatego, że brakuje nam wyobraźni, a dlatego, że zależy nam na strukturze, a nie na zbieraninie — gdy cena zależy od zakresu pracy i doświadczenia barbera, a nie od ładnej nazwy.",
 
@@ -194,7 +194,7 @@
       "hero.scroll": "Scroll",
 
       "services.tag": "Services",
-      "services.title": "CUTTANA has only 3 services",
+      "services.title": "CUTTANA has\nonly 3 services",
       "services.intro":
         "Not because we're short on imagination, but because we care about structure, not a mishmash — where the price depends on the scope of work and the barber's experience, not on a fancy name.",
 
