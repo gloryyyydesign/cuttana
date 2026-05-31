@@ -26,9 +26,19 @@ Haircut result photos, portrait 4:5 works best, `.jpg`.
 Names must match the `image` field in `js/data.js`. Defaults expected:
 - `case-01.jpg` … `case-08.jpg`
 
-## Location (`assets/location/`)
-- `location.mp4` — short walking/orientation clip showing how to find the door.
-- `location-poster.jpg` — poster frame for the video.
+## Location
+The location section now shows only the Google Maps widget (the "how to find
+us" video was removed).
+
+---
+
+## Note: temporary stock photos
+To preview the finished look, the team portraits, client cases and the hero
+backdrop currently point at free **Unsplash** images (set in `js/data.js`,
+team `image` / client `image` fields, and the hero `<img class="hero__media">`
+in `index.html`). Replace those URLs with the local asset paths above whenever
+the real photos are ready. Every `<img>` also has a Lorem Picsum fallback, so a
+card is never empty.
 
 ---
 After adding files, nothing else is needed — just refresh the page.

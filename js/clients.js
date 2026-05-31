@@ -71,7 +71,7 @@
       <article class="ccard card-pop" style="animation-delay:${(i || 0) * 55}ms">
         <div class="ccard__media" data-mono="${mono(name)}">
           <img src="${c.image}" alt="${name} — Cuttana" loading="lazy"
-               onerror="this.style.display='none'" />
+               onerror="this.onerror=null;this.src='https://picsum.photos/seed/${c.id}/800/1000'" />
           <div class="ccard__tags">${tags}</div>
         </div>
         <div class="ccard__body">

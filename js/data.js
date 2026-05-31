@@ -411,7 +411,7 @@
     {
       key: "sergey",
       name: { ru: "Сергей", pl: "Sergiej", en: "Sergey" },
-      image: "assets/team/sergey.jpg",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=70",
       tier: "premium",
       rank: {
         ru: "Основатель фракции",
@@ -456,7 +456,7 @@
     {
       key: "polina",
       name: { ru: "Полина", pl: "Polina", en: "Polina" },
-      image: "assets/team/polina.jpg",
+      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=70",
       tier: "premium",
       rank: {
         ru: "Главный стратег",
@@ -498,7 +498,7 @@
     {
       key: "nazar",
       name: { ru: "Назар", pl: "Nazar", en: "Nazar" },
-      image: "assets/team/nazar.jpg",
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=70",
       tier: "basic",
       rank: {
         ru: "Начинающий собиратель форм",
@@ -546,7 +546,7 @@
     {
       key: "tatiana",
       name: { ru: "Татьяна", pl: "Tatiana", en: "Tatiana" },
-      image: "assets/team/tatiana.jpg",
+      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=800&q=70",
       tier: "basic",
       rank: {
         ru: "Новобранец с опытом",
@@ -600,7 +600,7 @@
       name: { ru: "Артём", pl: "Artiom", en: "Artem" },
       barber: "sergey",
       services: ["fade", "beard"],
-      image: "assets/clients/case-01.jpg",
+      image: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=80",
       desc: {
         ru: "Средний фейд и плотная борода с чётким контуром.",
         pl: "Średni fade i gęsta broda z wyraźnym konturem.",
@@ -612,7 +612,7 @@
       name: { ru: "Михаил", pl: "Michaił", en: "Mikhail" },
       barber: "polina",
       services: ["scissors"],
-      image: "assets/clients/case-02.jpg",
+      image: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80",
       desc: {
         ru: "Ножницы по длине: текстура и мягкое движение.",
         pl: "Nożyczki na długości: tekstura i miękki ruch.",
@@ -624,7 +624,7 @@
       name: { ru: "Дэниел", pl: "Daniel", en: "Daniel" },
       barber: "nazar",
       services: ["fade"],
-      image: "assets/clients/case-03.jpg",
+      image: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=800&q=80",
       desc: {
         ru: "Баззкат с лёгким переходом по бокам.",
         pl: "Buzzcut z lekkim przejściem na bokach.",
@@ -636,7 +636,7 @@
       name: { ru: "Оля", pl: "Ola", en: "Ola" },
       barber: "tatiana",
       services: ["scissors", "beard"],
-      image: "assets/clients/case-04.jpg",
+      image: "https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?auto=format&fit=crop&w=800&q=80",
       desc: {
         ru: "Стрижка ножницами и аккуратная форма бороды.",
         pl: "Strzyżenie nożyczkami i schludna forma brody.",
@@ -648,7 +648,7 @@
       name: { ru: "Кирилл", pl: "Cyryl", en: "Kirill" },
       barber: "sergey",
       services: ["scissors", "beard"],
-      image: "assets/clients/case-05.jpg",
+      image: "https://images.unsplash.com/photo-1593702288056-f5834bcd7d2a?auto=format&fit=crop&w=800&q=80",
       desc: {
         ru: "Длина, слои и борода, собранные в один образ.",
         pl: "Długość, warstwy i broda złożone w jeden wizerunek.",
@@ -660,7 +660,7 @@
       name: { ru: "Ян", pl: "Jan", en: "Jan" },
       barber: "polina",
       services: ["fade", "beard"],
-      image: "assets/clients/case-06.jpg",
+      image: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=800&q=80",
       desc: {
         ru: "Высокий фейд с балансом под форму лица.",
         pl: "Wysoki fade zbalansowany pod kształt twarzy.",
@@ -672,7 +672,7 @@
       name: { ru: "Андрей", pl: "Andriej", en: "Andrey" },
       barber: "nazar",
       services: ["beard"],
-      image: "assets/clients/case-07.jpg",
+      image: "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=800&q=80",
       desc: {
         ru: "Оформление и коррекция бороды шейвером.",
         pl: "Modelowanie i korekta brody shaverem.",
@@ -684,7 +684,7 @@
       name: { ru: "Виктор", pl: "Wiktor", en: "Viktor" },
       barber: "tatiana",
       services: ["fade"],
-      image: "assets/clients/case-08.jpg",
+      image: "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=800&q=80",
       desc: {
         ru: "Чистый фейд с акцентом на контуры.",
         pl: "Czysty fade z akcentem na kontury.",

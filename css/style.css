@@ -434,6 +434,10 @@ h2.title {
   opacity: 0.4;
 }
 
+.hero__media {
+  opacity: 0.42;
+}
+
 .hero__overlay {
   position: absolute;
   inset: 0;
@@ -1270,6 +1274,16 @@ h2.title {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: clamp(18px, 2.6vw, 30px);
+}
+
+/* Single full-width map (location video removed) */
+.loc__grid--single {
+  grid-template-columns: 1fr;
+}
+
+.loc__grid--single .loc__map,
+.loc__grid--single .loc__panel {
+  min-height: clamp(380px, 48vw, 520px);
 }
 
 .loc__panel {

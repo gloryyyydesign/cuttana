@@ -85,7 +85,7 @@
       <article class="ccard reveal" style="transition-delay:${(i || 0) * 90}ms">
         <div class="ccard__media" data-mono="${mono(name)}">
           <img src="${c.image}" alt="${name} — Cuttana" loading="lazy"
-               onerror="this.style.display='none'" />
+               onerror="this.onerror=null;this.src='https://picsum.photos/seed/${c.id}/800/1000'" />
           <div class="ccard__tags">${tags}</div>
         </div>
         <div class="ccard__body">
@@ -127,7 +127,7 @@
         <article class="tcard reveal" style="transition-delay:${(idx % 2) * 110}ms">
           <div class="tcard__photo" data-mono="${mono(I.pick(b.name))}">
             <img src="${b.image}" alt="${I.pick(b.name)} — Cuttana" loading="lazy"
-                 onerror="this.style.display='none'" />
+                 onerror="this.onerror=null;this.src='https://picsum.photos/seed/${b.key}/800/800'" />
           </div>
           <div class="tcard__body">
             <span class="tcard__rank">${I.pick(b.rank)}</span>
