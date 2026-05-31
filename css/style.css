@@ -206,10 +206,14 @@ h2.title {
   transition: transform 0.3s var(--ease);
 }
 
-/* Header "Book now" — mirror the hero CTA's balanced proportions:
-   generous side padding, modest height, no forced min-height. */
-.nav__book {
-  padding: 13px 32px;
+/* Header "Book now" — extra horizontal breathing room so the label never
+   sits near the rounded ends. Higher specificity + !important to beat any
+   cached/older rule. */
+.header .nav .nav__book {
+  padding-left: 44px !important;
+  padding-right: 44px !important;
+  padding-top: 13px !important;
+  padding-bottom: 13px !important;
   flex-shrink: 0;
   font-size: 15px;
   font-weight: 600;
