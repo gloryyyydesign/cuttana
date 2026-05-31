@@ -602,7 +602,7 @@
       name: { ru: "Артём", pl: "Artiom", en: "Artem" },
       barber: "sergey",
       services: ["fade", "beard"],
-      image: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=80",
+      image: "https://loremflickr.com/640/800/barbershop,man/all?lock=21",
       desc: {
         ru: "Средний фейд и плотная борода с чётким контуром.",
         pl: "Średni fade i gęsta broda z wyraźnym konturem.",
@@ -614,7 +614,7 @@
       name: { ru: "Михаил", pl: "Michaił", en: "Mikhail" },
       barber: "polina",
       services: ["scissors"],
-      image: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80",
+      image: "https://loremflickr.com/640/800/haircut,man/all?lock=22",
       desc: {
         ru: "Ножницы по длине: текстура и мягкое движение.",
         pl: "Nożyczki na długości: tekstura i miękki ruch.",
@@ -626,7 +626,7 @@
       name: { ru: "Дэниел", pl: "Daniel", en: "Daniel" },
       barber: "nazar",
       services: ["fade"],
-      image: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=800&q=80",
+      image: "https://loremflickr.com/640/800/barbershop,man/all?lock=23",
       desc: {
         ru: "Баззкат с лёгким переходом по бокам.",
         pl: "Buzzcut z lekkim przejściem na bokach.",
@@ -637,12 +637,12 @@
       id: "case-04",
       name: { ru: "Оля", pl: "Ola", en: "Ola" },
       barber: "tatiana",
-      services: ["scissors", "beard"],
-      image: "https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?auto=format&fit=crop&w=800&q=80",
+      services: ["scissors"],
+      image: "https://loremflickr.com/640/800/hairstyle,woman/all?lock=24",
       desc: {
-        ru: "Стрижка ножницами и аккуратная форма бороды.",
-        pl: "Strzyżenie nożyczkami i schludna forma brody.",
-        en: "Scissor cut paired with a clean beard shape.",
+        ru: "Стрижка ножницами: форма и текстура.",
+        pl: "Strzyżenie nożyczkami: forma i tekstura.",
+        en: "Scissor cut: shape and texture.",
       },
     },
     {
@@ -650,7 +650,7 @@
       name: { ru: "Кирилл", pl: "Cyryl", en: "Kirill" },
       barber: "sergey",
       services: ["scissors", "beard"],
-      image: "https://images.unsplash.com/photo-1593702288056-f5834bcd7d2a?auto=format&fit=crop&w=800&q=80",
+      image: "https://loremflickr.com/640/800/beard,man/all?lock=25",
       desc: {
         ru: "Длина, слои и борода, собранные в один образ.",
         pl: "Długość, warstwy i broda złożone w jeden wizerunek.",
@@ -662,7 +662,7 @@
       name: { ru: "Ян", pl: "Jan", en: "Jan" },
       barber: "polina",
       services: ["fade", "beard"],
-      image: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=800&q=80",
+      image: "https://loremflickr.com/640/800/barbershop,man/all?lock=26",
       desc: {
         ru: "Высокий фейд с балансом под форму лица.",
         pl: "Wysoki fade zbalansowany pod kształt twarzy.",
@@ -674,7 +674,7 @@
       name: { ru: "Андрей", pl: "Andriej", en: "Andrey" },
       barber: "nazar",
       services: ["beard"],
-      image: "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=800&q=80",
+      image: "https://loremflickr.com/640/800/beard,man/all?lock=27",
       desc: {
         ru: "Оформление и коррекция бороды шейвером.",
         pl: "Modelowanie i korekta brody shaverem.",
@@ -686,7 +686,7 @@
       name: { ru: "Виктор", pl: "Wiktor", en: "Viktor" },
       barber: "tatiana",
       services: ["fade"],
-      image: "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=800&q=80",
+      image: "https://loremflickr.com/640/800/haircut,man/all?lock=28",
       desc: {
         ru: "Чистый фейд с акцентом на контуры.",
         pl: "Czysty fade z akcentem na kontury.",
