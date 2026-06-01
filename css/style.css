@@ -853,6 +853,13 @@ h2.title {
   margin-bottom: 0;
 }
 
+/* Bottom "View all work" — shown only on narrow screens, under the cards */
+.work__more {
+  display: none;
+  justify-content: center;
+  margin-top: clamp(28px, 6vw, 40px);
+}
+
 .cases {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -1545,6 +1552,11 @@ h2.title {
 }
 
 @media (max-width: 860px) {
+  /* Show the bottom "View all work" button under the cards on mobile */
+  .work__more {
+    display: flex;
+  }
+
   .nav__links,
   .nav .nav__book {
     display: none;
