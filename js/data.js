@@ -675,7 +675,7 @@
       barber: "nazar",
       services: ["beard"],
       image: "assets/clients/andrey.jpg",
-      imgPos: "center 22%",
+      imgPos: "center 6%",
       desc: {
         ru: "Оформление и коррекция бороды шейвером.",
         pl: "Modelowanie i korekta brody shaverem.",
