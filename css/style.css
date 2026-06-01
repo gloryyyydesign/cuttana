@@ -1599,8 +1599,21 @@ h2.title {
     grid-template-columns: 1fr;
   }
   .tcard__photo {
-    aspect-ratio: 16 / 11;
+    aspect-ratio: 4 / 5;
     min-height: 0;
+  }
+  /* Per-barber crop focus on mobile (box shape differs from desktop) */
+  .tcard[data-barber="sergey"] .tcard__photo img {
+    object-position: 50% 28% !important;
+  }
+  .tcard[data-barber="polina"] .tcard__photo img {
+    object-position: 50% 18% !important;
+  }
+  .tcard[data-barber="nazar"] .tcard__photo img {
+    object-position: 22% 38% !important;
+  }
+  .tcard[data-barber="tatiana"] .tcard__photo img {
+    object-position: 50% 12% !important;
   }
   .why__grid {
     grid-template-columns: 1fr;

@@ -125,7 +125,7 @@
           )
           .join("");
         return `
-        <article class="tcard reveal" style="transition-delay:${(idx % 2) * 110}ms">
+        <article class="tcard reveal" data-barber="${b.key}" style="transition-delay:${(idx % 2) * 110}ms">
           <div class="tcard__photo" data-mono="${mono(I.pick(b.name))}">
             <img src="${b.image}" alt="${I.pick(b.name)} — Cuttana" loading="lazy"
                  style="object-position:${b.imgPos || "center"}"
